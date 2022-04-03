@@ -19,7 +19,7 @@ global.APIKeys = {
 // Other
 global.owner = ['6285893466306','6285893466306']
 global.web = 'https://youtube.com/channel/UC2hMC3YSXSrDDhqOECXZkUg'
-global.bot = 'LiaaBotz-MD²'
+global.bot = 'Lia Bot-md'
 global.premium = ['6285893466306']
 global.packname = 'Created By'
 global.author = 'Lia Cantik ><'
