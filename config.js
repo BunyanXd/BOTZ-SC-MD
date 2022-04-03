@@ -17,7 +17,7 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285893466306','6285893466306']
+global.owner = ['6285893466306','6285893466306','6283863605242]
 global.web = 'https://youtube.com/channel/UC2hMC3YSXSrDDhqOECXZkUg'
 global.bot = 'Lia Bot-md'
 global.premium = ['6285893466306']
