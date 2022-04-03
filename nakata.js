@@ -25,7 +25,7 @@ const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, 
 let btn = [{
                                 urlButton: {
                                     displayText: `Github`,
-                                    url: `https://github.com/Nakataaard`
+                                    url: `https://github.com/BunyanXd`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -104,10 +104,10 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = false
+		if (!('autobio' in setting)) setting.autobio = true
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 	    }
 	    
         } catch (err) {
@@ -1043,14 +1043,14 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-                if (args[0] === 'close'){
+                if (args[0] === 'tutup'){
                     await hisoka.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`Sukses Menutup Group`)).catch((err) => reply(jsonformat(err)))
-                } else if (args[0] === 'open'){
+                } else if (args[0] === 'buka'){
                     await hisoka.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Sukses Membuka Group`)).catch((err) => reply(jsonformat(err)))
                 } else {
                 let buttons = [
-                        { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'group buka', buttonText: { displayText: 'Buka' }, type: 1 },
+                        { buttonId: 'group tutup', buttonText: { displayText: 'Tutup' }, type: 1 }
                     ]
                     await hisoka.sendButtonText(m.chat, buttons, `Mode Group`, hisoka.user.name, m)
 
@@ -1154,12 +1154,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'https://github.com/BunyanXd/BOTZ-SC-MD'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                    phoneNumber: '6285893466306'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1232,12 +1232,12 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'https://github.com/BunyanXd/BOTZ-SC-MD'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                    phoneNumber: '6285893466306'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2100,7 +2100,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
             }
             break
             case 'tiktokwm': case 'tiktokwatermark': {
-                if (!text) throw 'Masukkan Query Link!'
+                if (!text) throw 'Link Nya Mane Tod?!'
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
@@ -2118,7 +2118,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
             }
             break
             case 'tiktokmp3': case 'tiktokaudio': {
-                if (!text) throw 'Masukkan Query Link!'
+                if (!text) throw 'Link Nya Mane Tod?!'
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttons = [
@@ -2990,7 +2990,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 └───❑`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'S C R I P T',
+                                    displayText: 'N Y A R I - S C ? !',
                                     url: 'https://github.com/BunyanXd/BOTZ-SC-MD'
                                 }
                             }, {
@@ -3149,7 +3149,7 @@ let sectionnya= [{
 						]
 hisoka.sendList(m.chat, `Halo ${pushname}`, `───❑ INFO BOT
 
-LIBRAY:  *NahBotz  MD*`, "Nakataa", "List Bor ", sectionnya, { quoted: m})
+LIBRAY:  *Lia Bot -  MD*`, "Lia", "List Bor ", sectionnya, { quoted: m})
 break
 case 'grupmenu': {
 	            anu = `
