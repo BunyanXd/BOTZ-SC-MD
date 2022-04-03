@@ -3167,7 +3167,7 @@ case 'grupmenu': {
   ${prefix}promote @user
   ${prefix}demote @user
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'downloadmenu': {
@@ -3190,7 +3190,7 @@ case 'downloadmenu': {
   ${prefix}getmusic _<query>_
   ${prefix}getvideo _<query>_  
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
             break 
             case 'searchmenu': {
@@ -3206,7 +3206,7 @@ case 'downloadmenu': {
   ${prefix}wikimedia _<query>_
   ${prefix}ytsearch _<query>_
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'randommenu': {
@@ -3223,7 +3223,7 @@ case 'randommenu': {
   ${prefix}katasenja
   ${prefix}puisi
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'imagemenu': {
@@ -3237,7 +3237,7 @@ case 'imagemenu': {
   ${prefix}shinobu
   ${prefix}megumin
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'funmenu': {
@@ -3255,7 +3255,7 @@ case 'funmenu': {
   ${prefix}tebak [option]
   ${prefix}math [mode]  
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'voicemenu': {
@@ -3274,7 +3274,7 @@ ${prefix}robot
 ${prefix}slow
 ${prefix}tupai
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'religionmenu': {
@@ -3291,7 +3291,7 @@ ${prefix}tafsirsurah
 _Kristian_
 ${prefix}alkitab
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'immageemenu':  {
@@ -3302,7 +3302,7 @@ ${prefix}meme
 ${prefix}ppcouple
 ${prefix}darkjoke
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'tollsmenu': {
@@ -3313,7 +3313,7 @@ ${prefix}ssweb-hp
 ${prefix}ssweb-pc
 ${prefix}translate
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 
@@ -3352,7 +3352,7 @@ case 'primbonmenu': {
   ${prefix}zodiak
   ${prefix}shio
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'convertmenu': {
@@ -3374,7 +3374,7 @@ ${prefix}dbinary
 ${prefix}styletext
 ${prefix}ttp
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'nocategorymenu': {
@@ -3391,7 +3391,7 @@ case 'nocategorymenu': {
   ${prefix}listgc
   ${prefix}listonline
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'ephotomenu': {
@@ -3408,7 +3408,7 @@ ${prefix}blackpink
 ${prefix}igcertificate
 ${prefix}ytcertificate
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'textpromenu': {
@@ -3447,7 +3447,7 @@ ${prefix}3dgradient
 ${prefix}blackpink
 ${prefix}gluetext
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'databasemenu': {
@@ -3463,7 +3463,7 @@ case 'databasemenu': {
   ${prefix}getmsg
   ${prefix}delmsg
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'anonymouschatmenu': {
@@ -3474,7 +3474,7 @@ case 'anonymouschatmenu': {
 	${prefix}stop ( stop anonymous chat )
 	${prefix}sendkontak ( Khusus Di Dalam Room Anonymous chat )
 	`
-	  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+	  textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'sistemmenu': {
@@ -3483,7 +3483,7 @@ ${prefix}antilink On/Off
 ${prefix}mute On/Off
 ${prefix}antiwame On/Off
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
   case 'ownermenu': {
@@ -3502,7 +3502,7 @@ ${prefix}autobio On/Off
 ${prefix}autoread On/Off
 ${prefix}autoketik On/Off
   `
-    textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+    textTemplateButtons(m.chat, anu, `Lia Botz by BunyanXd`, btn)
             }
 break
 case 'tqtt': 
