@@ -103,10 +103,10 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	    let setting = global.db.data.settings[botNumber]
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
-		if (!isNumber(setting.status)) setting.status = 0
+		if (!isNumber(setting.status)) setting.status = ONLINE
 		if (!('autobio' in setting)) setting.autobio = true
 	    } else global.db.data.settings[botNumber] = {
-		status: 0,
+		status: ONLINE,
 		autobio: true,
 	    }
 	    
