@@ -2655,10 +2655,10 @@ case 'donasi':
 tekssa = `Halo @${m.sender.split("@s.whatsapp.net")[0]} 👋
 Berikut adalah list harga untuk sewa bot ini
 *💸Payment💰*
-*•Gopay:* ISI NOMOR LU
-*•Dana:* ISI NOMOR LU
-*•Ovo:* ISI NOMOR LU
-*•Pulsa:* ISI NOMOR LU(Up +5)
+*•Gopay:* 089502435112
+*•Dana:* 😐
+*•Ovo:* 😐
+*•Pulsa:* 083863605242(Up +5)
 
 *Note:
 =>Untuk Sewa/Memasukkan Bot Kedalam Group, cukup membayar Rp20.000
@@ -2673,9 +2673,10 @@ break
 ╭─ *Bot Info* ─╮       
 
 Libray : *Baileys Multi Device*
-Name Bot : *NahBotz-MD²*
-Creator : *NakataArdnt*
-Author : *NakataArdnta.*
+Name Bot : *Lia Bot-MD²*
+Creator : *Lia,Alya,Bunyan*
+Author : *Lia Cantik ><.*
+Grup Bot : https://chat.whatsapp.com/I5kpHaw5SEQEBQQJPrGXd2
 User Total : *${Object.keys(global.db.data.users).length}*
  
 ╰─────────╯
@@ -2990,11 +2991,11 @@ User Total : *${Object.keys(global.db.data.users).length}*
                 let btn = [{
                                 urlButton: {
                                     displayText: 'S C R I P T',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'https://github.com/BunyanXd/BOTZ-SC-MD'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'S E W A',
+                                    displayText: 'S E W A - B 0 T',
                                     id: 'sewabot'
                                 }
                             }, {
